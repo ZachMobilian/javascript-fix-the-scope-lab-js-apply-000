@@ -1,7 +1,8 @@
 var animal = 'dog'
 
-function myAnimal() {
-  return animal
+function myAnimal(string) {
+  if(string === 'dog')
+  return 'cat';
 }
 
 function yourAnimal() {
